@@ -13,3 +13,10 @@ PyTorch社区活跃人物陈云编写的《深度学习框架PyTorch入门与实
 
 
 电脑修过之后，好像连wifi的网速变慢了，下载CIFAR-10的数据集要8个小时，不太对劲（沧桑.jpg）
+ 
+ 
+顺便记录一下Linux下解压tar.gz文件的命令：
+
+
+tar -zxvf xxx.tar.gz 
+ 
