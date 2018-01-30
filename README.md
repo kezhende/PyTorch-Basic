@@ -19,4 +19,9 @@ PyTorch社区活跃人物陈云编写的《深度学习框架PyTorch入门与实
 
 
 tar -zxvf xxx.tar.gz 
- 
+
+
+1.31 2018 更新
+
+
+CIFAR-10.jpynb 里按原代码敲的话会有一个bug，原代码是直接用LongTensor作为classes数组的下标，系统要求classes数组下标类型需要是int型的
