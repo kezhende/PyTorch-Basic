@@ -25,3 +25,6 @@ tar -zxvf xxx.tar.gz
 
 
 CIFAR-10.jpynb 里按原代码敲的话会有一个bug，原代码是直接用LongTensor作为classes数组的下标，系统要求classes数组下标类型需要是int型的
+
+
+讨论群里的作者和一个大佬说原代码没问题，这么说有可能是我PyTorch的版本问题。
