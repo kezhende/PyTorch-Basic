@@ -1,4 +1,4 @@
-#coding:utf8
+# _*_ coding:utf-8 _*_
 import torch
 import torch.nn as nn
 from torchvision.models import vgg16
@@ -12,7 +12,7 @@ class Vgg16(torch.nn.Module):
 
     def forward(self, x):
 	results = []
-	# featuresµÄµÚ3£¬8£¬15£¬22²ã·Ö±ðÊÇ: relu1_2, relu2_2, relu3_3, relu4_3
+	# featuresÂµÃ„ÂµÃš3Â£Â¬8Â£Â¬15Â£Â¬22Â²Ã£Â·Ã–Â±Ã°ÃŠÃ‡: relu1_2, relu2_2, relu3_3, relu4_3
 	for ii, model in enumerate(self.features):
 	    x = model(x)
 	    if ii in {3, 8, 15, 22}:
